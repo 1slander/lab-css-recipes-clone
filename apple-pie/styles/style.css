@@ -3,6 +3,43 @@
 *::after {
   box-sizing: inherit;
 }
+
 html {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.recipe__name {
+  background-image: url("../images/apple-pie.jpg");
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-size: cover;
+}
+
+.recipe__title {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.description {
+  border-bottom: 2px solid grey;
+  max-width: 960px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Description__text {
 }
