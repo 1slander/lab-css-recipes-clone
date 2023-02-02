@@ -13,7 +13,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header */
+/* header  section*/
 
 .recipe__name {
   background-image: url("../images/apple-pie.jpg");
@@ -29,6 +29,8 @@ body {
   font-weight: 400;
   letter-spacing: 5px;
 }
+
+/* Description Section */
 
 .Description {
   border-bottom: 2px solid grey;
@@ -71,10 +73,14 @@ body {
   font-family: sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
+  margin: 0;
 }
+
+/* Ingredients section */
 
 .Ingredients__list {
   list-style: none;
+  margin: 0;
 }
 .Ingredients__list > li::before {
   content: "- ";
@@ -84,10 +90,27 @@ body {
 .Ingredients__list li {
   font-family: sans-serif;
   font-weight: 200;
+  text-indent: -25px;
 }
 
 .Ingredients__image {
   height: 60px;
   margin-bottom: 15px;
   align-self: center;
+}
+
+/* Direction Section */
+
+.Directions {
+  max-width: 960px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Directions__text {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin: 0;
 }
