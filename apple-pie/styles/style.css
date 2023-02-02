@@ -114,3 +114,15 @@ body {
   font-size: 1rem;
   margin: 0;
 }
+
+.Directions ol {
+  list-style: none;
+  padding-inline-start: 10px;
+}
+
+.Directions ol > li {
+  counter-increment: listcounter;
+}
+.Directions ol > li::before {
+  content: counter(listcounter) ")";
+}
