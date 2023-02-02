@@ -22,14 +22,15 @@ body {
   background-size: cover;
 }
 
-.recipe__title {
+#recipe__title {
   text-align: center;
   color: white;
   font-size: 4rem;
   font-weight: 400;
+  letter-spacing: 5px;
 }
 
-.description {
+.Description {
   border-bottom: 2px solid grey;
   max-width: 960px;
   margin: auto;
@@ -42,4 +43,15 @@ body {
 }
 
 .Description__text {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: justify;
+  width: 840px;
+  line-height: 1.25;
+}
+
+.Description__image {
+  height: 50px;
+  margin-bottom: 15px;
 }
